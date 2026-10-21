@@ -4,6 +4,13 @@
 
 This deliverable was assembled as a static HTML/CSS/JavaScript project. The authoring environment did not provide a connected Replit workspace or browser automation session, so Replit deployment, rendered visual appearance, real device widths and browser-console behavior cannot be claimed as verified here.
 
+## Fixes applied in the follow-up build
+
+- Separated editor appearance tokens from restaurant palette tokens so the brand palette no longer overrides the editor light/dark/system surfaces.
+- Set the effective appearance in the document head to reduce the initial wrong-theme flash.
+- Added a compatibility fallback for system-theme change events in browsers that do not support `MediaQueryList.addEventListener`.
+- Static-hosting limitation remains: editing in the browser does not publish to all visitors.
+
 ## Automated checks run during packaging
 
 - JSON syntax parsing: run locally before packaging.

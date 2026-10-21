@@ -8,6 +8,10 @@
 4. Test `index.html` and `menu-editor.html` using the preview URL.
 5. Use Replit's publishing/deployment flow for your account and confirm the deployed URL yourself. This project does not deploy automatically.
 
+## Important: editor changes are not live-published
+
+This is a static site. The editor stores a draft in the current browser and exports JSON; it cannot write to Vercel or change `data/menu.json` on the server. Other visitors will not see edits until the JSON is replaced in the repository and Vercel redeploys. For true live editing from the editor, add a database and authenticated admin access (for example, a managed database with row-level security) and connect both pages to it. Do not expose a database service-role secret in browser code.
+
 ## Publish menu changes
 
 1. Open `menu-editor.html` in the running project.
