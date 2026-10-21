@@ -1,0 +1,3 @@
+name,description,price,category,image,vegetarian,vegan,spicy,bestseller,available
+Garden herb salad,"Seasonal leaves, herbs, citrus vinaigrette",460,Small plates,assets/images/salad.jpg,true,true,false,false,true
+Roasted aubergine,"Smoky aubergine, tahini, herbs",620,From the kitchen,assets/images/aubergine.jpg,true,true,true,true,true
